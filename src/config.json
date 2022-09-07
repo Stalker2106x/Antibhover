@@ -1,0 +1,17 @@
+{
+    "metar": {
+        "apiUrl": "https://avwx.rest/api",
+        "apiKey": "",
+        "ICAO": ["LFMD", "LFMN"],
+        "rules": {
+            "visibility": 9999,
+            "cloudsHeight": 3000,
+            "windStrength": 15,
+            "windOrientation": ["N", "NE", "E", "SE", "S"]
+        }
+    },
+    "flights": {
+        "apiUrl": "https://opensky-network.org/api",
+        "ICAO": "NCE"
+    }
+}
